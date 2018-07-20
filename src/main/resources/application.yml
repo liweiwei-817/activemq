@@ -1,0 +1,19 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    in-memory: true
+    pool:
+      enabled: false
+    user: admin
+    password: admin
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
